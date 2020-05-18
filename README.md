@@ -16,3 +16,7 @@ Download and run the [NodeMCU firmware programmer](https://github.com/nodemcu/no
 ## Software
 
 The code for esp-thing is tested and built using a GitHub action.
+
+* Download the artifacts and extract to /esp-thing/.pio
+* `platformio run --disable-auto-clean -t nobuild -t upload`
+
