@@ -15,12 +15,4 @@ Download and run the [NodeMCU firmware programmer](https://github.com/nodemcu/no
 
 ## Software
 
-This is a bit of an adventure - my goal is to use a containerised build environment to test and compile the code. My first stab at this is using [PlatformIO](https://platformio.org/ "PlatformIO").
-
-
-
-
-https://hub.docker.com/r/sglahn/platformio-core/dockerfile
-
-
-Python 3.8-slim-buster
+The code for esp-thing is tested and built using a GitHub action.
