@@ -1,3 +1,5 @@
+![esp-thing](https://github.com/bigginge/esp8266-mqtt/workflows/esp-thing/badge.svg?branch=master)
+
 # esp8266-mqtt
 
 ## Hardware Setup
