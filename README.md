@@ -13,10 +13,16 @@ Download and run the [NodeMCU firmware programmer](https://github.com/nodemcu/no
 * Flash speed: 80MHz
 * SPI Mode: DIO
 
-## Software
+## MQTT setup
 
-The code for esp-thing is tested and built using a GitHub action.
+Broker setup here.....
 
+## esp-thing
+
+esp-thing is the arduino application that runs on the ESP8266. The project is developed using [PlatformIO](https://platformio.org/ "PlatformIO") and [VSCode](https://code.visualstudio.com/ "Visual Studio Code").
+
+The code is tested and built using a GitHub action, although can also be built locally.
+
+* Clone the repo
 * Download the artifacts and extract to /esp-thing/.pio
 * `platformio run --disable-auto-clean -t nobuild -t upload`
-
