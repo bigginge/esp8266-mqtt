@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-    - name: Install dependencies
+    - name: Install esp-thing requirements
       run: |
         python -m pip install --upgrade pip
         pwd
@@ -31,10 +31,8 @@ jobs:
     - name: Build esp app
       run: |
         platformio run
-    - name: Upload a Build Artifact
+    - name: Upload esp-thing artifacts
       uses: actions/upload-artifact@v2
       with:
-        # Artifact name
-        name: Build Output
-        # A file, directory or wildcard pattern that describes what to upload
+        name: esp-thing
         path: esp-thing/.pio/
